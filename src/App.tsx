@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import { Hub } from "./pages/Hub/Hub";
+import { Task1ScramblerPage } from "./pages/Task1Scrambler/Task1ScramblerPage";
+import { Task2PeselPage } from "./pages/Task2Pesel/Task2PeselPage";
+import { Task3UsersPage } from "./pages/Task3Users/Task3UsersPage";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Hub />} />
+      <Route path="/task1-scrambler" element={<Task1ScramblerPage />} />
+      <Route path="/task2-pesel-validator" element={<Task2PeselPage />} />
+      <Route path="/task3-users-api" element={<Task3UsersPage />} />
+    </Routes>
   );
-}
+};
 
 export default App;

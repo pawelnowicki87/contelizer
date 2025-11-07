@@ -1,0 +1,24 @@
+@import "../../../../shared/styles/variables";
+
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+
+  &__input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid $color-border;
+    color: $color-text-light;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    transition: box-shadow 0.2s, border-color 0.2s;
+
+    &:focus {
+      border-color: $color-accent;
+      box-shadow: 0 0 10px rgba($color-accent, 0.4);
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import "../../../shared/styles/variables";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, $color-bg-dark, $color-bg-light);
+  color: $color-text-light;
+  font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.app {
+  width: 95vw;
+  max-width: 1800px;
+  padding: 4rem 6rem;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid $color-border;
+  border-radius: 28px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(16px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  animation: fadeIn 0.6s ease-out;
+
+  &__title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+  }
+
+  &__textareas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 100%;
+
+    textarea {
+      width: 100%;
+      min-height: 300px;
+      font-size: 1.1rem;
+      min-width: 400px;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

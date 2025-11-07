@@ -1,0 +1,23 @@
+@import "../../shared/styles/variables";
+
+.back {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: $radius-md;
+  background: rgba(255, 255, 255, 0.08);
+  color: $color-text-light;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid $color-border;
+  transition: background 0.2s, transform 0.1s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}

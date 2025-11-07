@@ -1,0 +1,26 @@
+@import "../../../../shared/styles/variables";
+
+.text-display {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+  padding: 0.5rem;
+
+  &__title {
+    margin-bottom: 0.3rem;
+    color: $color-text-light;
+    font-weight: 600;
+  }
+
+  &__textarea {
+    min-height: 200px;
+    width: 100%;
+    border-radius: $radius-md;
+    background: rgba(255, 255, 255, 0.05);
+    color: $color-text-light;
+    border: 1px solid $color-border;
+    resize: vertical;
+    font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+  }
+}
