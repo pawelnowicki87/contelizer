@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/contelizer/static/css/main.c99ac529.css",
+    "main.js": "/contelizer/static/js/main.e17de65a.js",
+    "index.html": "/contelizer/index.html",
+    "main.c99ac529.css.map": "/contelizer/static/css/main.c99ac529.css.map",
+    "main.e17de65a.js.map": "/contelizer/static/js/main.e17de65a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c99ac529.css",
+    "static/js/main.e17de65a.js"
+  ]
+}
