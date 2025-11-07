@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://pawelnowicki87.github.io/contelizer",
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -32,6 +31,7 @@
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@types/react-router-dom": "^5.3.3",
+    "gh-pages": "^6.3.0",
     "jest": "^30.2.0",
     "ts-jest": "^29.4.5",
     "typescript": "^5.9.3"
