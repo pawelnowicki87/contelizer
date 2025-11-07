@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/contelizer/static/css/main.c99ac529.css",
-    "main.js": "/contelizer/static/js/main.fcf5000d.js",
+    "main.js": "/contelizer/static/js/main.ca4fb08b.js",
     "index.html": "/contelizer/index.html",
     "main.c99ac529.css.map": "/contelizer/static/css/main.c99ac529.css.map",
-    "main.fcf5000d.js.map": "/contelizer/static/js/main.fcf5000d.js.map"
+    "main.ca4fb08b.js.map": "/contelizer/static/js/main.ca4fb08b.js.map"
   },
   "entrypoints": [
     "static/css/main.c99ac529.css",
-    "static/js/main.fcf5000d.js"
+    "static/js/main.ca4fb08b.js"
   ]
 }
